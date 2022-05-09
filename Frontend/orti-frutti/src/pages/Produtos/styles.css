@@ -1,0 +1,36 @@
+.produto__container__prod {
+    width: 100%;
+    max-width: 1400px;
+    padding: 16px;
+}
+
+.produto__container__prod h1 {
+    /* text-align: center; */
+    font-size: 25px;
+    
+}
+
+.produto__card__container__prod {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    justify-content:flex-start;
+
+}
+
+.card {
+   width: 200px; 
+   height: 270px;
+}
+
+.btn-detalhes{
+    position: absolute;
+    bottom: 15px;
+}
+
+/*@media only screen and (max-width: 1366px) {
+    .card {
+        width: 200px;
+     }
+}*/
